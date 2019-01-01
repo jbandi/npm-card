@@ -1,21 +1,20 @@
 {
-  "name": "bitandbang",
-  "version": "1.3.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "jbandi",
+  "version": "1.0.0",
+  "description": "A personal card for Jonas Bandi (@jbandi)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "jbandi": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/jbandi/npm-card.git"
   },
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
     "dev": "npm run build && node ./bin/card.js",
-    "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
   },
   "keywords": [
     "card",
@@ -25,7 +24,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Jonas Bandi",
   "license": "MIT",
   "files": [
     "bin/card.js",
